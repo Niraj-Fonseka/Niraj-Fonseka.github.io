@@ -1,0 +1,13 @@
+@import '~antd/dist/antd.css';
+
+.content{
+    margin-left: 5px;
+}
+
+.description{
+    margin-top: 25px;
+}
+
+.ant-layout-content {
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+@import '~antd/dist/antd.css';
+
+.demo {
+  margin: 16px;
+}
+.demo-nav {
+  height: 40px;
+  margin-bottom: 16px;
+  font-size: 15px;
+  padding-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+  background: #EAEAEA;
+  
+}
+.demo-nav a {
+  line-height: 30px;
+  padding: 0 10px;
+  margin-left: 3px;
+ 
+}
+.app-list {
+  margin-top: 16px;
+}
+
+
+.menu-link{
+  color:#929292;
+}
+
+.footer{
+  /* bottom:0;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  margin-right: 5px; */
+  position:absolute;
+left:0;
+bottom:0;
+right:0;
+}
