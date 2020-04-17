@@ -72,7 +72,7 @@ export default function MyWork(props){
             </Panel>
             <Panel header="Github Actions : Hands On" key="6" style={customPanelStyle}>
                 <MyWorkElement
-                    link="https://levelup.gitconnected.com/multi-stage-docker-builds-with-go-modules-df23b7f91a67"
+                    link="https://medium.com/@fonseka.live/github-actions-hands-on-51d48eeca7ee"
                     linkName="article"
                     description="How to get started on working with GitHub Actions. This article was written right when Github Action beta was available so it may not be up to date"
                 />
