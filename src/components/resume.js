@@ -23,9 +23,9 @@ export default function Resume(props){
     <Panel header="Work Experience" key="1" style={customPanelStyle}>
       <div>
         <ul>
-            <li>TBA... - ( May 2020 )
+            <li> H-E-B ( April 2020 - Present)
                 <ul>
-                    <li> Senior Infrastructure Engineer</li>
+                    <li> Senior Software Engineer</li>
                     <ul>
                     </ul>
                 </ul>
