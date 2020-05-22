@@ -124,7 +124,7 @@ function Projects(props){
         />
     </Panel>
 
-    <Panel header="nba-api-go" key="3" style={customPanelStyle}>
+    <Panel header="gke-ip-update" key="3" style={customPanelStyle}>
         <MyWorkElement
             link="https://github.com/Niraj-OSS/gke-ip-update"
             linkName="github"
