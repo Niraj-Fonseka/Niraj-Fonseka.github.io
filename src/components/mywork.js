@@ -108,15 +108,55 @@ function Projects(props){
     return(
         <div className="collapse-list">
        <Collapse bordered={false}     expandIcon={({ isActive }) => <Icon type="caret-right" rotate={isActive ? 90 : 0} />}>
-    <Panel header="Recognize" key="1" style={customPanelStyle}>
+
+    <Panel header="COVID-19" key="1" style={customPanelStyle}>
+        <MyWorkElement
+            link="https://covid-19-us-dataset.s3.amazonaws.com/covid.html"
+            linkName="url"
+            description="A dashboard to visualize the covid-19 statistics"
+        />
+    </Panel>
+    <Panel header="Recognize" key="2" style={customPanelStyle}>
         <MyWorkElement
             link="https://github.com/Niraj-Fonseka/recognize"
             linkName="github"
             description="A gRPC webserver webserver thats written in python to do facial detection using OpenCV.The face recognition is done using OpenCV's haarcascades. I haven't really had the time to test for the false positve rate. But it's in progress. I'm also currently in the process of converting and improving the facial detection to actuation facial identification using OpenCV's built in dnn ( Deep neural network ) module. When this is implemented you will be able to identify certian people after training a model with a few pictures of that person."
         />
-    
     </Panel>
-    <Panel header="Austin Food Inspection Scores" key="2" style={customPanelStyle}>
+
+    <Panel header="nba-api-go" key="3" style={customPanelStyle}>
+        <MyWorkElement
+            link="https://github.com/Niraj-OSS/gke-ip-update"
+            linkName="github"
+            description="A tool to automate the process of adding an ip address for private kubernetes clusters in GKE "
+        />
+    </Panel>
+
+    <Panel header="nba-api-go" key="4" style={customPanelStyle}>
+        <MyWorkElement
+            link="https://github.com/Niraj-OSS/nba-api-go"
+            linkName="github"
+            description="Go client library for the nba api"
+        />
+    </Panel>
+
+    <Panel header="listennotes-go" key="5" style={customPanelStyle}>
+        <MyWorkElement
+            link="https://github.com/Niraj-OSS/listennotes-go"
+            linkName="github"
+            description="Go client library for the listen notes api"
+        />
+    </Panel>
+
+    <Panel header="setkubecontext" key="6" style={customPanelStyle}>
+        <MyWorkElement
+            link="https://github.com/Niraj-OSS/setkubecontext"
+            linkName="github"
+            description="A tool to make switching between kuberantes contexts easier"
+        />
+    </Panel>
+
+    <Panel header="Austin Food Inspection Scores" key="7" style={customPanelStyle}>
         <MyWorkElement
             link="https://austin-food-inspections.firebaseapp.com/"
             linkName="url"
@@ -125,7 +165,7 @@ function Projects(props){
 
     </Panel>
 
-    <Panel header="Random Gopher" key="3" style={customPanelStyle}>
+    <Panel header="Random Gopher" key="8" style={customPanelStyle}>
         <MyWorkElement
             link="https://github.com/Niraj-Fonseka/random-gopher"
             linkName="github"
