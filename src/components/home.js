@@ -18,7 +18,7 @@ export default function HomePage(props){
             
             <img alt="example" src={niraj} width="286" height="290" />
             <div className="description">
-            <Paragraph >Hello! My Name is Niraj Fonseka. I graduated from the University of Texas with a degree in Computer Science and a Minor in Business. I'm currently working as a Software Engineer at Liveperson while working on my Masters in Computer Science at Georgia Tech.</Paragraph>
+            <Paragraph >Hello! My Name is Niraj. I graduated from the University of Texas with a degree in Computer Science and a Minor in Business Administration. I'm currently working as a Software Engineer at H-E-B, while working on my Masters in Computer Science at Georgia Tech and MIT.</Paragraph>
             </div>
         </div>
         </Content>
