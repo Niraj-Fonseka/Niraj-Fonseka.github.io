@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: personal-site
-        image: gcr.io/agile-terra-275621/personal-site
+        image: gcr.io/PROJECT_ID/IMAGE:TAG
         ports:
         - containerPort: 80
