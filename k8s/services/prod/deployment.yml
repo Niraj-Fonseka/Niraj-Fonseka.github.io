@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: personal-site-prod
+  labels:
+    app: personal-site-prod
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: personal-site-prod
+  template:
+    metadata:
+      labels:
+        app: personal-site-prod
+    spec:
+      containers:
+      - name: personal-site-prod
+        image: gcr.io/PROJECT_ID/IMAGE:latest
+        ports:
+        - containerPort: 80
