@@ -76,6 +76,7 @@ jobs:
         ls
         pwd
         ./kustomize edit set image gcr.io/PROJECT_ID/IMAGE:TAG=gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA
-        ./kustomize build ~/nirajfonseka/overlays/dev | kubectl apply -f -
+        ls
+        ./kustomize build ./overlays/dev | kubectl apply -f -
         kubectl rollout status deployment/$IMAGE
         kubectl get services -o wide
