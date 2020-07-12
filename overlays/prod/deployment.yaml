@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: personal-site-prod
-        image: gcr.io/PROJECT_ID/IMAGE:latest
+        image: gcr.io/$PROJECT_ID/$IMAGE:latest
         ports:
         - containerPort: 80
