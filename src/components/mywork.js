@@ -158,11 +158,10 @@ function Projects(props){
 
     <Panel header="Austin Food Inspection Scores" key="7" style={customPanelStyle}>
         <MyWorkElement
-            link="https://austin-food-inspections.firebaseapp.com/"
+            link="https://austin-food-ratings.web.app/"
             linkName="url"
             description="A progressive web app that shows historical inspection scores of resturants and food establishments in Austin.TX "
         />
-
     </Panel>
 
     <Panel header="Random Gopher" key="8" style={customPanelStyle}>
