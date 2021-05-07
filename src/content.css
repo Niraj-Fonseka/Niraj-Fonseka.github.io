@@ -20,8 +20,7 @@
 
     
 .profile:hover {
-
-transform: scale(1.00);
+transform: scale(1.10);
 
 }
 
@@ -51,9 +50,8 @@ transform: scale(1.00);
     margin-top: 10px;
 }
 .morebutton{
-    margin: 10px;
     margin-top: 25px;
-    width: 100px;
+    width: 120px;
     height: 35px;
     transition: transform .25s ease;
     background-color: #9999a1;
