@@ -3,8 +3,7 @@ import './../content.css';
 import ParticlesBg from 'particles-bg'
 import { Row, Col } from 'antd';
 import niraj from './../niraj.jpeg';
-import { Button, Radio } from 'antd';
-import { DownloadOutlined } from '@ant-design/icons';
+import { Button } from 'antd';
 
 export default function LandingPage(props){
 
@@ -14,7 +13,7 @@ export default function LandingPage(props){
        <div className="mainview">
         <Row>
             <Col span={24}>
-                <img className="profile" src={niraj}/>
+                <img className="profile" alt="profile_pic" src={niraj}/>
             </Col>
         </Row>
         <Row>
