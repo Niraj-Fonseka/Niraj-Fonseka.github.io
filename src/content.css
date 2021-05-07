@@ -11,3 +11,58 @@
 .ant-layout-content {
     text-align: center;
 }
+
+.mainview{
+    text-align: center;
+    height: 100%;
+    
+}
+
+    
+.profile:hover {
+
+transform: scale(1.00);
+
+}
+
+.profile{
+    transition: transform .25s ease;
+    border-radius: 10px;
+    margin-top: 100px;
+    height: 325px;
+    width: 320px;
+}
+
+.buttons{
+    margin-top: 10px;
+}
+
+.button{
+    margin: 10px;
+    margin-top: 50px;
+    width: 100px;
+    height: 35px;
+    transition: transform .25s ease;
+    background-color: #9999a1;
+    border-color: #9999a1;
+}
+
+.morebuttons{
+    margin-top: 10px;
+}
+.morebutton{
+    margin: 10px;
+    margin-top: 25px;
+    width: 100px;
+    height: 35px;
+    transition: transform .25s ease;
+    background-color: #9999a1;
+    border-color: #9999a1;
+}
+
+.morebutton:hover{
+    transform: scale(1.25);
+}
+.button:hover{
+    transform: scale(1.25);
+}
