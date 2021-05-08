@@ -13,13 +13,13 @@ export default function LandingPage(props){
        <div className="mainview">
         <Row>
             <Col span={24}>
-                <img className="profile" alt="profile_pic" src={niraj}/>
+                <img className="profile" alt="profile_pic" nsrc={niraj}/>
             </Col>
         </Row>
         <Row>
             <Col span={24}>
                 <div className="buttons">
-                    <Button className="button" type="primary"  size="default" disabled={true}> Resume </Button>
+                    <Button className="button" type="primary"  size="default" href="https://drive.google.com/file/d/140iZzoTj8Dsi3NueSPd9HAgV62dUpUnm/view?usp=sharing"> Resume </Button>
                     <Button className="button" type="primary" size="default" href="https://www.linkedin.com/in/niraj-fonseka-03bab3107/"> LinkedIn </Button>
                     <Button className="button" type="primary" size="default" href="https://github.com/Niraj-Fonseka"> Github </Button>
                 </div>
