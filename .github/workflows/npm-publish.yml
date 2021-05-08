@@ -16,6 +16,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 12
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: npm install
       - run: npm run build
       - run: npm run deploy
