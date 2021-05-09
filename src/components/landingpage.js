@@ -3,7 +3,7 @@ import './../content.css';
 import ParticlesBg from 'particles-bg'
 import { Row, Col } from 'antd';
 import { Button } from 'antd';
-import {ProfileImage} from './image';
+import ProfileImage from './image';
 
 export default function LandingPage(props){
 
