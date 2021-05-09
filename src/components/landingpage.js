@@ -2,8 +2,8 @@ import React from 'react'
 import './../content.css';
 import ParticlesBg from 'particles-bg'
 import { Row, Col } from 'antd';
-import niraj from './../niraj.jpeg';
 import { Button } from 'antd';
+import {ProfileImage} from './image';
 
 export default function LandingPage(props){
 
@@ -13,7 +13,7 @@ export default function LandingPage(props){
        <div className="mainview">
         <Row>
             <Col span={24}>
-                <img className="profile" alt="profile_pic" nsrc={niraj}/>
+                <img className="profile" alt="profile_pic" src={ProfileImage}/>
             </Col>
         </Row>
         <Row>
