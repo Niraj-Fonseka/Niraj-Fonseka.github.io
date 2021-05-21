@@ -1,62 +1,46 @@
-import React, { useState } from 'react'
-import ParticlesBg from 'particles-bg'
-import './../content.css';
-import { Button } from 'antd';
-import { Layout, Menu } from 'antd';
-import {
-  MenuUnfoldOutlined,
-  MenuFoldOutlined,
-  UserOutlined,
-  VideoCameraOutlined,
-  UploadOutlined,
-} from '@ant-design/icons';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import 'antd/dist/antd.css';
+import './../index.css';
+import { Menu } from 'antd';
+import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 
-const { Header, Sider, Content } = Layout;
+const { SubMenu } = Menu;
+
 
 export default function SeeMore(props){
+    const [current, setCurrent] = React.useState('mail');
 
-    const [collapsed, setCollapsed] = useState(false);
-
-    function toggle(){
-        setCollapsed(!collapsed)
-    };
-      return(
-            <div className="drawview">
-            <Layout>
-                <Sider trigger={null} collapsible collapsed={collapsed}>
-                <div className="logo" />
-                <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
-                    <Menu.Item key="1" icon={<UserOutlined />}>
-                    nav 1
-                    </Menu.Item>
-                    <Menu.Item key="2" icon={<VideoCameraOutlined />}>
-                    nav 2
-                    </Menu.Item>
-                    <Menu.Item key="3" icon={<UploadOutlined />}>
-                    nav 3
-                    </Menu.Item>
-                </Menu>
-                </Sider>
-                <Layout className="site-layout">
-                <Header className="site-layout-background" style={{ padding: 0 }}>
-                    {React.createElement(collapsed ? MenuUnfoldOutlined : MenuFoldOutlined, {
-                    className: 'trigger',
-                    onClick: toggle,
-                    })}
-                </Header>
-                <Content
-                    className="site-layout-background"
-                    style={{
-                    margin: '24px 16px',
-                    padding: 24,
-                    minHeight: 280,
-                    }}
-                >
-                    Content
-                </Content>
-                </Layout>
-            </Layout>
-
-            </div>
-      )
+    
+    const handleClick = e => {
+        console.log('click ', e);
+        setCurrent(e.key);
+      };
+    
+  
+      return (
+        <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
+          <Menu.Item key="mail" icon={<MailOutlined />}>
+            Navigation One
+          </Menu.Item>
+          <Menu.Item key="app" disabled icon={<AppstoreOutlined />}>
+            Navigation Two
+          </Menu.Item>
+          <SubMenu key="SubMenu" icon={<SettingOutlined />} title="Navigation Three - Submenu">
+            <Menu.ItemGroup title="Item 1">
+              <Menu.Item key="setting:1">Option 1</Menu.Item>
+              <Menu.Item key="setting:2">Option 2</Menu.Item>
+            </Menu.ItemGroup>
+            <Menu.ItemGroup title="Item 2">
+              <Menu.Item key="setting:3">Option 3</Menu.Item>
+              <Menu.Item key="setting:4">Option 4</Menu.Item>
+            </Menu.ItemGroup>
+          </SubMenu>
+          <Menu.Item key="alipay">
+            <a href="https://ant.design" target="_blank" rel="noopener noreferrer">
+              Navigation Four - Link
+            </a>
+          </Menu.Item>
+        </Menu>
+      );
 }
