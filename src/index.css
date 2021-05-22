@@ -83,4 +83,9 @@ p {
 .projectslink:hover{
   transform: scale(1.25);
   color: blueviolet;
+  cursor: pointer;
+}
+
+.projectitemcard:hover{
+  cursor: pointer;
 }

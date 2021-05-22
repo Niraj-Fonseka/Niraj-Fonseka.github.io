@@ -27,10 +27,10 @@ export default function SeeMore(props){
           <Menu.Item key="projects" style={{width: '100px' , textAlign : 'center'}} icon={<AppstoreOutlined />}>
             Projects
           </Menu.Item>
-          <Menu.Item key="writing" style={{width: '100px' , textAlign : 'center'}} icon={<AppstoreOutlined />}>
+          <Menu.Item key="writing" disabled style={{width: '100px' , textAlign : 'center'}} icon={<AppstoreOutlined />}>
             Writing
           </Menu.Item>
-          <Menu.Item key="photography" style={{width: '100px' , textAlign : 'center'}} icon={<AppstoreOutlined />}>
+          <Menu.Item key="photography" disabled style={{width: '100px' , textAlign : 'center'}} icon={<AppstoreOutlined />}>
             Photography
           </Menu.Item>
         </Menu>

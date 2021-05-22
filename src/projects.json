@@ -8,12 +8,12 @@
             "github" : "https://github.com/Niraj-Fonseka/covid-us-api",
             "url" : "https://covid-19-us-dataset.s3.amazonaws.com/covid.html"
         },
-        "Recognize" : {
+        "recognize" : {
             "description" : "A gRPC webserver webserver thats written in python to do facial detection using OpenCV.The face recognition is done using OpenCV's haarcascades. I haven't really had the time to test for the false positve rate. But it's in progress. I'm also currently in the process of converting and improving the facial detection to actuation facial identification using OpenCV's built in dnn ( Deep neural network ) module. When this is implemented you will be able to identify certian people after training a model with a few pictures of that person.",
             "github" : "https://github.com/Niraj-Fonseka/recognize"
         },
         "gke-ip-update" : {
-            "description" : "A dashboard to visualize the covid-19 statistics",
+            "description" : "A tool to automate the process of adding an ip address for private kubernetes clusters in GKE",
             "github" : "https://github.com/Niraj-OSS/gke-ip-update"
         },
         "nba-api-go" : {

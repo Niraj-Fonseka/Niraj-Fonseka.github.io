@@ -10,11 +10,13 @@ const data = [
   'recognize',
   'Austin Food Inspection Scores',
   'fin-man',
+  'COVID-19',
+  'Random Gopher',
 ];
 export default function ProjectsList(props){
 
     return(
-        <div style={{marginLeft: '5px', marginTop: '5px'}}>
+        <div className="projectitemcard" style={{marginLeft: '5px', marginTop: '5px'}}>
         <List
         bordered
         dataSource={data}
