@@ -48,7 +48,7 @@ export default function LandingPage(props){
                      </div>
                  </Col>
              </Row>
-             <ParticlesBg type="cobweb" bg={true} color="#874A5B" />
+             <ParticlesBg type="cobweb" bg={true} color="#bfbfbf" />
      
             </div>
          )
