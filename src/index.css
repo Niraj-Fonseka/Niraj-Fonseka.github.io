@@ -63,11 +63,24 @@ p {
   height: 100vh;
   color: #fff;
   line-height: 120px;
-  background: rgba(16, 142, 233, 1);
+  background: rgb(255, 255, 255);
 }
 
 .ant-layout-sider {
   color: #fff;
   line-height: 120px;
-  background: #3ba0e9;
+  background: rgb(255, 255, 255);
+}
+
+.projectitem{
+  transition: transform .25s ease;
+}
+
+.projectitem:hover{
+  transform: scale(1.10);
+}
+
+.projectslink:hover{
+  transform: scale(1.25);
+  color: blueviolet;
 }

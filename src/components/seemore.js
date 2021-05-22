@@ -13,7 +13,6 @@ export default function SeeMore(props){
 
     
     const handleClick = e => {
-        console.log('click ', e);
         setCurrent(e.key);
       };
     
@@ -30,6 +29,9 @@ export default function SeeMore(props){
           </Menu.Item>
           <Menu.Item key="writing" style={{width: '100px' , textAlign : 'center'}} icon={<AppstoreOutlined />}>
             Writing
+          </Menu.Item>
+          <Menu.Item key="photography" style={{width: '100px' , textAlign : 'center'}} icon={<AppstoreOutlined />}>
+            Photography
           </Menu.Item>
         </Menu>
         <Content selected={current}/>
