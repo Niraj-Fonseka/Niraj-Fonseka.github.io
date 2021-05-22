@@ -1,0 +1,40 @@
+{
+        "listennotes-go" : {
+            "description" : "Go client library for the listen notes api",
+            "github" : "https://github.com/Niraj-OSS/setkubecontext"
+        },
+        "COVID-19" : {
+            "description" : "A dashboard to visualize the covid-19 statistics",
+            "github" : "https://github.com/Niraj-Fonseka/covid-us-api",
+            "url" : "https://covid-19-us-dataset.s3.amazonaws.com/covid.html"
+        },
+        "recognize" : {
+            "description" : "A gRPC webserver webserver thats written in python to do facial detection using OpenCV.The face recognition is done using OpenCV's haarcascades. I haven't really had the time to test for the false positve rate. But it's in progress. I'm also currently in the process of converting and improving the facial detection to actuation facial identification using OpenCV's built in dnn ( Deep neural network ) module. When this is implemented you will be able to identify certian people after training a model with a few pictures of that person.",
+            "github" : "https://github.com/Niraj-Fonseka/recognize"
+        },
+        "gke-ip-update" : {
+            "description" : "A tool to automate the process of adding an ip address for private kubernetes clusters in GKE",
+            "github" : "https://github.com/Niraj-OSS/gke-ip-update"
+        },
+        "nba-api-go" : {
+            "description" : "Go client library for the nba api",
+            "github" : "https://github.com/Niraj-OSS/nba-api-go"
+        },
+        "Austin Food Inspection Scores" : {
+            "description" : "A progressive web app that shows historical inspection scores of resturants and food establishments in Austin.TX ",
+            "github" : "https://github.com/Niraj-Fonseka/covid-us-api",
+            "url" : "https://austin-food-ratings.web.app/"
+        },
+        "Random Gopher" : {
+            "description" : "A webserver that generates a random Go gopher",
+            "github" : "https://github.com/Niraj-Fonseka/random-gopher"
+        },
+        "setkubecontext" : {
+            "description" : "A tool to make switching between kuberantes contexts easier ",
+            "github" : "https://github.com/Niraj-OSS/setkubecontext"
+        },
+        "fin-man" : {
+            "description" : "platform to manage my own finances",
+            "github" : "https://github.com/fin-man"
+        }
+    }

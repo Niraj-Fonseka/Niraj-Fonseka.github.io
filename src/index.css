@@ -58,3 +58,34 @@ p {
   margin-left: 20px;
   margin-right: 5px;
 }
+
+.ant-layout-content {
+  height: 100vh;
+  color: #fff;
+  line-height: 120px;
+  background: rgb(255, 255, 255);
+}
+
+.ant-layout-sider {
+  color: #fff;
+  line-height: 120px;
+  background: rgb(255, 255, 255);
+}
+
+.projectitem{
+  transition: transform .25s ease;
+}
+
+.projectitem:hover{
+  transform: scale(1.10);
+}
+
+.projectslink:hover{
+  transform: scale(1.25);
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.projectitemcard:hover{
+  cursor: pointer;
+}
