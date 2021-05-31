@@ -4,7 +4,7 @@ import './../index.css'
 import ProjectsList from './projectslist';
 import ProjectsContent from './projectscontent';
 
-const { Header, Footer, Sider, Content } = Layout;
+const { Sider, Content } = Layout;
 
 export default function Projects(props){
 
