@@ -45,6 +45,7 @@ export default function LandingPage(props){
                  <Col span={24}>
                      <div className="morebuttons">
                          <Button className="morebutton" type="primary" size="default" onClick={OnClickSeeMore}> Learn more </Button>
+                         <Button className="button" type="primary" size="default" disabled={true}> Contact Me </Button>
                      </div>
                  </Col>
              </Row>
