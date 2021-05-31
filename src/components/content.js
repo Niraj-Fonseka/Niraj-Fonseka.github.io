@@ -1,6 +1,6 @@
 import React from 'react'
 import Projects from './projects';
-import Blog from './writings';
+import Writings from './writings';
 
 export default function Content(props){
 
@@ -15,7 +15,7 @@ export default function Content(props){
     }else if(props.selected === "writing"){
         return(
             <div>
-                <Blog />
+                <Writings />
             </div>
         )           
     }else{
