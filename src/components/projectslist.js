@@ -1,6 +1,6 @@
 import React from 'react'
 import './../index.css'
-import {  List, Typography, Divider  } from 'antd';
+import {  List, Typography  } from 'antd';
 
 const data = [
   'listennotes-go',

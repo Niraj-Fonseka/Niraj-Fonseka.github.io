@@ -1,10 +1,8 @@
 import React from 'react'
-import {  Layout  } from 'antd';
 import './../index.css'
 import { LinkOutlined  } from '@ant-design/icons';
 import projectsdata from './../projects.json';
 
-const { Header, Footer, Sider, Content } = Layout;
 
 
 export default function ProjectsContent(props){

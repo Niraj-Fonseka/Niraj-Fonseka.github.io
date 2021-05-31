@@ -1,5 +1,6 @@
 import React from 'react'
 import Projects from './projects';
+import Writings from './writings';
 
 export default function Content(props){
 
@@ -11,6 +12,12 @@ export default function Content(props){
                 <Projects />
             </div>
         )
+    }else if(props.selected === "writing"){
+        return(
+            <div>
+                <Writings />
+            </div>
+        )           
     }else{
         return(
             <div>
