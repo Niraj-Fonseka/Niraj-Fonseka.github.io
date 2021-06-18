@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './../content.css';
 import ParticlesBg from 'particles-bg'
+import {FileTextOutlined ,LinkedinOutlined, GithubOutlined, AppstoreOutlined, PhoneOutlined} from '@ant-design/icons'
 import { Row, Col } from 'antd';
 import { Button } from 'antd';
 import ProfileImage from './image';
@@ -35,17 +36,27 @@ export default function LandingPage(props){
              <Row>
                  <Col span={24}>
                      <div className="buttons">
-                         <Button className="button" type="primary"  size="default" href="https://drive.google.com/file/d/140iZzoTj8Dsi3NueSPd9HAgV62dUpUnm/view?usp=sharing"> Resume </Button>
-                         <Button className="button" type="primary" size="default" href="https://www.linkedin.com/in/niraj-fonseka-03bab3107/"> LinkedIn </Button>
-                         <Button className="button" type="primary" size="default" href="https://github.com/Niraj-Fonseka"> Github </Button>
+                         <Button className="button" href="https://drive.google.com/file/d/140iZzoTj8Dsi3NueSPd9HAgV62dUpUnm/view?usp=sharing" > 
+                            <FileTextOutlined  style={{ fontSize: '30px' }}/>
+                         </Button>
+                         <Button className="button" href="https://www.linkedin.com/in/niraj-fonseka-03bab3107/"> 
+                            <LinkedinOutlined  style={{ fontSize: '30px' }}/>
+                         </Button>
+                         <Button className="button"  href="https://github.com/Niraj-Fonseka"> 
+                            <GithubOutlined  style={{ fontSize: '30px' }}/>
+                         </Button>
                      </div>
                  </Col>
              </Row>
              <Row>
                  <Col span={24}>
                      <div className="morebuttons">
-                         <Button className="morebutton" type="primary" size="default" onClick={OnClickSeeMore}> Learn more </Button>
-                         <Button className="button" type="primary" size="default" disabled={true}> Contact Me </Button>
+                         <Button className="button" onClick={OnClickSeeMore}>
+                                <AppstoreOutlined  style={{ fontSize: '30px' }}/>    
+                         </Button>
+                         <Button className="button"  disabled={true}>
+                                <PhoneOutlined  style={{ fontSize: '30px' }}/>
+                         </Button>
                      </div>
                  </Col>
              </Row>
