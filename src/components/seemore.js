@@ -19,7 +19,7 @@ export default function SeeMore(props){
         <div>
 
         <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
-          <Menu.Item key="back" style={{backgroundColor: "#f4f4f4", borderRadius: "5px" }} onClick={props.callback} icon={<MailOutlined />}>
+          <Menu.Item key="back" style={{backgroundColor: "#f4f4f4", borderRadius: "5px" }} onClick={props.callback} >
             Back
           </Menu.Item>
           <Menu.Item key="projects" style={{width: '100px' , textAlign : 'center'}} icon={<AppstoreOutlined />}>

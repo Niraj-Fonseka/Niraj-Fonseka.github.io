@@ -61,12 +61,12 @@ transform: scale(1.10);
 .button{
     margin: 10px;
     margin-top: 50px;
-    width: 100px;
-    height: 35px;
+    width: auto;
+    height: auto;
     transition: transform .25s ease;
-    background-color: #9999a1;
-    border-color: #9999a1;
-}
+    border-style: hidden;
+    background-color: transparent;
+}   
 
 .morebuttons{
     margin-top: 10px;
